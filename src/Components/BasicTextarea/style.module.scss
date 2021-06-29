@@ -1,0 +1,43 @@
+@import '../../Res/Styles/colors.scss';
+
+.basic_textarea {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 6px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 12px;
+  transition: color .3s ease-out;
+  &_error {
+    color: red;
+  }
+}
+
+.textarea {
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  border: 2px solid rgba(#000000, .4);
+  border-radius: 5px;
+  padding: 2px 4px;
+  resize: none;
+  transition: border-color .3s ease-out;
+  &:hover, &:focus {
+    border-color: $main_blue;
+  }
+  &_error {
+    border-color: red;
+    &:hover, &:focus {
+      border-color: red;
+    }
+  }
+}
+
+.error {
+  font-size: 10px;
+  color: red;
+  height: 10px;
+}

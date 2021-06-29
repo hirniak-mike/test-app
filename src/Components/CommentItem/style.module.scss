@@ -1,0 +1,23 @@
+.comment {
+  display: flex;
+  margin: 20px 0;
+}
+
+.comment_desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  font-size: 12px;
+  opacity: .8;
+}
+
+.comment_text {
+  font-size: 14px;
+}
+
+.delete {
+  cursor: pointer;
+  margin-left: 5px;
+}

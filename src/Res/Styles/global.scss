@@ -1,0 +1,19 @@
+@import './keyframes.scss';
+
+body {
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.main_container {
+  max-width: 1064px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.loader_wrapper {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: smoothAppearance ease-out .1s;
+}

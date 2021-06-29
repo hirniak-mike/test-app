@@ -1,0 +1,7 @@
+@import '../../Res/Styles/keyframes.scss';
+
+.all_products {
+  flex: 1 0 auto;
+  padding: 15px 0 30px;
+  animation: smoothAppearance .3s ease-out;
+}

@@ -1,0 +1,13 @@
+export { default as Footer } from './Footer';
+export { default as Header } from './Header';
+export { default as ProductsList } from './ProductsList';
+export { default as ProductCard } from './ProductCard';
+export { default as ProductItem } from './ProductItem';
+export { default as ProductComments } from './ProductComments';
+export { default as ControlProduct } from './ControlProduct';
+export { default as BasicInput } from './BasicInput';
+export { default as BasicTextarea } from './BasicTextarea';
+export { default as SortSelect } from './SortSelect';
+export { default as CommentInput } from './CommentInput';
+export { default as CommentsList } from './CommentsList';
+export { default as CommentItem } from './CommentItem';
