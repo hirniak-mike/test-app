@@ -2,12 +2,26 @@
 
 .header {
   flex-shrink: 0;
-  padding: 5px 0;
+  padding: 3px 0 7px;
   background-color: $main_blue;
   box-shadow: 0px 0px 10px 5px $main_blue;
   color: white;
 }
 
 .logo {
+  position: relative;
   font-size: 24px;
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: -1px;
+    left: 0;
+    height: 1px;
+    width: 0;
+    background-color: white;
+    transition: all ease-out .2s;
+  }
+  &:hover::after {
+    width: 100%;
+  }
 }

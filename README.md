@@ -1,10 +1,10 @@
 # Open the application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Click on the link to open the app. (https://react-app21.herokuapp.com).
 
-# Getting Started with Create React App
+# Add pictures
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To add pictures, I recommend using the site (https://unsplash.com/t/food-drink).
 
 ### `npm start`
 
